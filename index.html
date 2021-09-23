@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Projektna stran za šolo, z naslovom ~Slovenski gasilci~ in z vsebino o slovenskem gasilstvu"/>
+        <meta name="author" content="Oskar Starmanm, 4.Ra STŠ ŠCKR"/>
+        <meta name="keywords" content="gasilci, Slovenija, slovenski gasilci, firefighters Slovenia">
+        <title>Slovenski Gasilci</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <!-- Bootstrap styles-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <!-- animacije-->
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Main CSS file-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Gasilni avto -->
+        <link href="css/firetruck.css" rel="stylesheet" />
+    </head>
+    <body class="animate__animated animate__fadeIn animate__delay-0.5s">
+        <!-- HEADER z  LOGOTIPOM -->
+        <header class="container-fluid bg-light">
+            <div class="d-flex justify-content-center">
+                <a href="index.html">
+                    <img class="logo3 animate__animated animate__fadeInRight animate__delay-1s" src="assets/LOGO SG/BAKLA.png" alt="" width="120px" height="" class="d-inline-block align-text-top">
+                    <img class="logo2 animate__animated animate__fadeInLeft animate__delay-1s" src="assets/LOGO SG/SKIRA.png" alt="" width="120px" height="" class="d-inline-block align-text-top">
+                    <img class="logo1 animate__animated animate__fadeIn animate__delay-2s" src="assets/LOGO SG/GRB.png" alt="" width="120px" height="" class="d-inline-block align-text-top">
+                </a>
+            </div>
+            <!--GASILNI AVTO ANIMACIJA-->
+                <div class="wrapper d-none d-md-block">
+                    <div class="truck">
+                        <div class="pneu"></div>
+                        <div class="parachoque">
+                        <div class="escapamento"></div>
+                        </div>
+                        <div class="farol"></div>
+                        <div class="escada">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        </div>
+                        <div class="listra"></div>
+                        <div class="janela"></div>
+                        <div class="sirene"></div>
+                        <div class="escada-topo">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        </div>
+                        <div class="mangueira"></div>
+                    </div>
+                </div>
+        </header>
+        <!-- GUMB ZA PRIDRUŽITEV -->
+              <a href="prijava.html"><button id="gumb-pridruzitev" type="button" class="animate__animated animate__slideInDown animate__delay-3s d-none d-sm-block" >Postani gasilec!</button></a>
+
+        <!-- Navigation-->
+        <div class="sticky-top" style="z-index: 8;">
+            <nav class="nav navbar-expand justify-content-center sticky-top">
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav meni">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">DOMOV</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">OPERATIVA</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="operativa/oprema.html">Oprema</a></li>
+                            <li><a class="dropdown-item" href="operativa/vozila.html">Vozila</a></li>
+                            <li><a class="dropdown-item" href="operativa/pgd.html">Prostovoljni gasilci</a></li>
+                            <li><a class="dropdown-item" href="operativa/poklicni.html">Poklicni gasilci</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">LITERATURA</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="literatura/informatika.html">Informatika</a></li>
+                            <li><a class="dropdown-item" href="literatura/organizacija.html">Organizacija</a></li>
+                            <li><a class="dropdown-item" href="literatura/preventiva.html">Požarna preventiva</a></li>
+                            <li><a class="dropdown-item" href="literatura/prva-pomoc.html">Prva pomoč</a></li>
+                            <li><a class="dropdown-item" href="literatura/razvrscanje.html">Razvrščanje</a></li>
+                            <li><a class="dropdown-item" href="literatura/gasilni-aparati.html">Gašenje z gasilnimi aparati</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">O NAS</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="o-nas/kontakt.html">Kontakt</a></li>
+                            <li><a class="dropdown-item" href="o-nas/zgodovina.html">Zgodovina</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="galerija.html">GALERIJA</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <!-- RDEČA ČRTA Z REFLEKTIVNIMI OZNAKAMI-->
+        <div id="redBar">
+            <div id="yLine1"></div>
+            <div id="yLine2"></div>
+            <div id="yLine3"></div>
+            <div id="yLine4"></div>
+            <div id="yLine5"></div>
+            <div id="yLine6"></div>
+        </div>
+        <!-- CAROUSEL - SLIDESHOW -->
+            <div id="carouselPrvaStran" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselPrvaStran" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselPrvaStran" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselPrvaStran" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselPrvaStran" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselPrvaStran" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carousel1.jpg" class="img-fluid" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel2.jpg" class="img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel3.jpg" class="img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel4.jpg" class="img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel5.jpg" class="img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrvaStran" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPrvaStran" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        <!-- RDEČA ČRTA Z REFLEKTIVNIMI OZNAKAMI-->
+        <div id="redBar">
+            <div id="yLine1"></div>
+            <div id="yLine2"></div>
+            <div id="yLine3"></div>
+            <div id="yLine4"></div>
+            <div id="yLine5"></div>
+            <div id="yLine6"></div>
+        </div>
+
+        <div id="content" class="site-content">
+            <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3 d-none d-lg-block">
+                            <div class="news">
+                                <div class="news-naslov text-center">
+                                    NOVICE
+                                </div>
+                                <div class="news-feed">
+                                    <div class="novica">
+                                        <h6>21. september 2021</h6>
+                                        <p class="text-uppercase">POSODOBITEV SPLETNE STRANI</p>
+                                    </div>
+                                    <div class="novica">
+                                        <h6>20. september 2021</h6>
+                                        <p class="text-uppercase">POSODOBITEV SPLETNE STRANI</p>
+                                    </div>
+                                    <div class="novica">
+                                        <h6>19. september 2021</h6>
+                                        <p class="text-uppercase">POSODOBITEV SPLETNE STRANI</p>
+                                    </div>
+                                    <div class="novica">
+                                        <h6>18. september 2021</h6>
+                                        <p class="text-uppercase">POSODOBITEV SPLETNE STRANI</p>
+                                    </div>
+                                    <div class="novica">
+                                        <h6>17. september 2021</h6>
+                                        <p class="text-uppercase">POSODOBITEV SPLETNE STRANI</p>
+                                    </div>
+                                    <div class="novica">
+                                        <h6>16. september 2021</h6>
+                                        <p class="text-uppercase">POSODOBITEV SPLETNE STRANI</p>
+                                    </div>
+                                </div
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="main-content">
+                            <h1 class="text-uppercase text-center strani-naslov">o slovenskem gasilstvu</h1>	
+                        <p>
+                            Prostovoljno gasilstvo ima na Slovenskem že 150-letno tradicijo. Ljudje se združujejo v gasilska društva, da bi učinkovitejše preprečevali in gasili požare. Naloga gasilskih društev je veliko več kot le gašenje in reševanje v primeru požarov. V njih so ljudje našli socialno oporo in solidarno, nesebično pomoč ob vsakršni nesreči. Skozi gasilska društva člani izkazujejo predanost slovenskemu narodu in obstoj te zavesti.
+                        </p>
+                        <p>
+                            Danes so v številnih krajih prav gasilska društva tista, ki združujejo in povezujejo občane pri aktivnostih in dejavnostih, posebej na področju varstva pred požari ter kulturnem in drugih področjih. Gasilska organizacija se je z leti razvila v sodobno, humanitarno in nestrankarsko organizacijo.
+                        </p>
+                        <p>
+                            Gasilska zveza Slovenije je samostojna, nepridobitna, humanitarna, nepolitična ter najvišja oblika povezovanja prostovoljnih gasilskih društev in njihovih zvez. Deluje na podlagi Zakona o društvih in Zakona o gasilstvu. Je zveza vseh prostovoljnih gasilskih društev, vseh prostovoljnih industrijskih gasilskih društev ter njihovih gasilskih zvez, ki so organizirana na občinski, medobčinski in regijski ravni.
+                        </p>
+                        <p>
+                            Gasilska zveza Slovenije je bila ustanovljena leta 1949 v Ljubljani, kot naslednica vseh predhodnih povezav gasilskih organizacij. Od tedaj dalje opravlja naloge krovne gasilske organizacije v Republiki Sloveniji in je od leta 1992 članica CTIF.
+                        </p>
+                        <p><img class="Flag-map_of_Slovenia" src="
+                            assets/img/Flag-map_of_Slovenia.png" /></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-none d-lg-block">
+                        <div class="intervencije">
+                            <div class="intervencije-naslov text-center">
+                                <a href="https://spin3.sos112.si/api/javno/ODRSS/true">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-rss" viewBox="0 0 16 16">
+                                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path>
+                                        <path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1zm0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1z"></path>
+                                        </svg>
+                                </a>
+                                    ZADNJE INTERVENCIJE
+                            </div>
+                                <div id="last_div" class="rssfeed">
+                                     <!--RSS FEED ZAKOMENTIRAN KER ŠTEKA CELA STRAN-->
+                                     <script src="//rss.bloople.net/?url=https%3A%2F%2Fspin3.sos112.si%2Fapi%2Fjavno%2FODRSS%2Ftrue&limit=6&showtitle=false&type=js"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <footer class="bg-dark text-white text-center text-lg-start">
+        <!-- RDEČA ČRTA Z REFLEKTIVNIMI OZNAKAMI-->
+        <div id="redBar">
+            <div id="yLine1"></div>
+            <div id="yLine2"></div>
+            <div id="yLine3"></div>
+            <div id="yLine4"></div>
+            <div id="yLine5"></div>
+            <div id="yLine6"></div>
+        </div> 
+            <div class="container zgori">
+                <div class="row">
+                    <!-- FOOTER 1. STOLPEC -->
+                    <div class="col-md-6 text-center">
+                        <h1 class="text-uppercase">Klic na <span class="red">112</span></h1>
+                            <div class="hr-theme-slash-2">
+                                <div class="hr-line"></div>
+                                <div class="hr-icon"><h5 class="bi bi-telephone-fill"></h5></div>
+                                <div class="hr-line"></div>
+                                </div>
+                                <p class="text-left">Kaj moramo povedati ko kličemo na številko 112:</p>
+                                <ul id="klic">
+                                    <li><span class="red">KDO</span> kliče</li>
+                                    <li><span class="red">KAJ</span> se je zgodilo</li>
+                                    <li><span class="red">KJE</span> se je zgodilo</li>
+                                    <li><span class="red">KDAJ</span> se je zgodilo</li>
+                                    <li><span class="red">KOLIKO</span> je ponesrečencev</li>
+                                    <li>kakšne so <span class="red">POŠKODBE</span></li>
+                                    <li>kakšne so <span class="red">OKOLIŠČINE</span> na kraju nesreče</li>
+                                    <li>kakšno <span class="red">POMOČ</span> potrebujete</li>
+                                </ul>
+                        </p>
+                    </div>
+                    <!-- FOOTER 2. STOLPEC -->
+                    <div class="col-md-6 text-center">
+                        <h1 class="text-uppercase mb-0">povezave</h1>
+                        <div class="hr-theme-slash-2">
+                        <div class="hr-line"></div>
+                        <div class="hr-icon"><h3 class="bi bi-link-45deg"></h3></div>
+                        <div class="hr-line"></div>
+                        </div>
+                        <p class="text-left">Spletne strani, ki jih uporabljamo gasilci:</p>
+                        <ul>
+                            <li><a href="https://spin3.sos112.si/javno">Spin SOS</a></li>
+                            <li><a href="https://www.gasilec.net">Gasilska zveza Slovenije</a></li>
+                            <li><a href="https://www.gasilci.org">Gasilci.org</a></li>
+                            <li><a href="https://www.aed-baza.si">AED baza Slovenije</a></li>
+                            <li><a href="https://gasilci112.si/">Gasilci112</a></li>
+                            <li><a href="http://www.sos112.si/slo/index.php">Uprava za zaščito in reševanje</a></li>
+                            <li><a href="https://apl.gasilec.net/Vulkan/Login.aspx?ReturnUrl=%2fVulkan">Vulkan</a></li>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4 text-center spodi">© 2021 Copyright: Oskar Starman</div>
+                    <div class="col-md-4 text-center">Z gasilskim pozdravom: <span class="red">"Na pomoč!"</span></div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/script.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+            var HTML = '<script src="\/\/rss.bloople.net/?url=https%3A%2F%2Fspin3.sos112.si%2Fapi%2Fjavno%2FODRSS%2Ftrue&limit=6&showtitle=false&type=js"><\/script>';
+        </script>
+    </body>
+</html>

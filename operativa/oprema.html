@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Projektna stran za šolo, z naslovom ~Slovenski gasilci~ in z vsebino o slovenskem gasilstvu"/>
+        <meta name="author" content="Oskar Starmanm, 4.Ra STŠ ŠCKR"/>
+        <meta name="keywords" content="gasilci, Slovenija, slovenski gasilci, firefighters Slovenia">
+        <title>Slovenski Gasilci</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <!-- Bootstrap styles-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <!-- Fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- animacije-->
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- Main CSS file-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <!-- Gasilni avto -->
+        <link href="../css/firetruck.css" rel="stylesheet" />
+    </head>
+    <body class="animate__animated animate__fadeIn animate__delay-0.5s">
+        <!-- HEADER z  LOGOTIPOM -->
+        <header class="container-fluid bg-light">
+            <div class="d-flex justify-content-center">
+                <a href="../index.html">
+                    <img class="logo3 animate__animated animate__fadeInRight animate__delay-0.5s" src="../assets/LOGO SG/BAKLA.png" alt="" width="130px" height="" class="d-inline-block align-text-top">
+                    <img class="logo2 animate__animated animate__fadeInLeft animate__delay-0.5s" src="../assets/LOGO SG/SKIRA.png" alt="" width="130px" height="" class="d-inline-block align-text-top">
+                    <img class="logo1 animate__animated animate__fadeIn animate__delay-1.5s" src="../assets/LOGO SG/GRB.png" alt="" width="130px" height="" class="d-inline-block align-text-top">
+                </a>
+            </div>
+        </header>
+        <!-- GUMB ZA PRIDRUŽITEV -->
+              <a href="/prijava.html"><button id="gumb-pridruzitev" type="button" class="animate__animated animate__slideInDown animate__delay-1.5s d-none d-sm-block" >Postani gasilec!</button></a>
+
+        <!-- Navigation-->
+        <div class="sticky-top" style="z-index: 8;">
+            <nav class="nav navbar-expand justify-content-center sticky-top">
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav meni">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">DOMOV</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">OPERATIVA</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="../operativa/oprema.html">Oprema</a></li>
+                            <li><a class="dropdown-item" href="../operativa/vozila.html">Vozila</a></li>
+                            <li><a class="dropdown-item" href="../operativa/pgd.html">Prostovoljni gasilci</a></li>
+                            <li><a class="dropdown-item" href="../operativa/poklicni.html">Poklicni gasilci</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">LITERATURA</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../literatura/informatika.html">Informatika</a></li>
+                            <li><a class="dropdown-item" href="../literatura/organizacija.html">Organizacija</a></li>
+                            <li><a class="dropdown-item" href="../literatura/preventiva.html">Požarna preventiva</a></li>
+                            <li><a class="dropdown-item" href="../literatura/prva-pomoc.html">Prva pomoč</a></li>
+                            <li><a class="dropdown-item" href="../literatura/razvrscanje.html">Razvrščanje</a></li>
+                            <li><a class="dropdown-item" href="../literatura/gasilni-aparati.html">Gašenje z gasilnimi aparati</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">O NAS</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../o-nas/kontakt.html">Kontakt</a></li>
+                            <li><a class="dropdown-item" href="../o-nas/zgodovina.html">Zgodovina</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../galerija.html">GALERIJA</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <!-- RDEČA ČRTA Z REFLEKTIVNIMI OZNAKAMI-->
+        <div id="redBar">
+            <div id="yLine1"></div>
+            <div id="yLine2"></div>
+            <div id="yLine3"></div>
+            <div id="yLine4"></div>
+            <div id="yLine5"></div>
+            <div id="yLine6"></div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 d-none d-lg-block">
+
+                </div>
+                <div class="col-lg-8 opremaMargin">
+                    <h1 class="text-uppercase text-center strani-naslov">gasilska OPREMA in orodje</h1>
+                    <div>
+                        <h4 class="text-center naslovNadListo red">GASILSKO ORODJE IN OPREMA ZA GAŠENJE</h4>
+                    </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne" >
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-controls="collapseOne" aria-expanded="false">
+                                        TLAČNE CEVI
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="UnorderedList">
+                                            <li>UPORABA</li>
+                                                <ul class="UnorderedList">
+                                                    <li>Uporabljamo jih za prenos vode do požara</li>
+                                                </ul>
+                                            <li>ZGRADBA</li>
+                                            <ul>
+                                                <li>trevir (stare)</li>
+                                                <li>sintetična vlakna (termoplastika), so tudi plastificirane in barvane</li>
+                                            </ul>
+                                            <li>DIMENZIJE</li>
+                                            <ul class="UnorderedList">
+                                                <li>
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                            <th scope="col">Oznaka cevi</th>
+                                                            <th scope="col">Dimenzije cevi</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                            <td>D-cev</td>
+                                                            <td>25mm</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <td>C-cev</td>
+                                                            <td>42mm ali 52mm</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <td>B-cev</td>
+                                                            <td>75mm</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <td>A-cev</td>
+                                                            <td>110mm</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        SESALNE CEVI
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="UnorderedList">
+                                            <li>UPORABA</li>
+                                                <ul class="UnorderedList">
+                                                    <li>Uporabljamo jih za odvzem vode iz vodnih virov (rek, jezer, ...)</li>
+                                                </ul>
+                                            <li>ZGRADBA</li>
+                                            <ul>
+                                                <li>jeklena spirala</li>
+                                                <li>guma</li>
+                                                <li>posebna izvedba tesnila</li>
+                                            </ul>
+                                            <li>DIMENZIJE</li>
+                                            <ul class="UnorderedList">
+                                                <li>
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                            <th scope="col">Oznaka cevi</th>
+                                                            <th scope="col">Dimenzije cevi</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                            <td>D-cev</td>
+                                                            <td>25mm</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <td>C-cev</td>
+                                                            <td>52mm</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <td>B-cev</td>
+                                                            <td>75mm</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <td>A-cev</td>
+                                                            <td>110mm</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        VISOKOTLAČNE CEVI
+                                    </button>
+                                </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                               <ul class="UnorderedList">
+                                            <li>UPORABA</li>
+                                                <ul class="UnorderedList">
+                                                    <li>Uporabljamo jih za prenos vode pod visokim tlakom do požara</li>
+                                                </ul>
+                                            <li>ZGRADBA</li>
+                                            <ul>
+                                                <li>guma</li>
+                                            </ul>
+                                            <li>DIMENZIJE</li>
+                                            <ul class="UnorderedList">
+                                                <li>
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                            <th scope="col">Oznaka cevi</th>
+                                                            <th scope="col">Dimenzije cevi</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                            <td>D-cev</td>
+                                                            <td>25mm</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        DODATNA OPREMA ZA CEVI
+                                    </button>
+                                </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Cevni pritrdilec</li>
+                                                <li>Cevni nosilec</li>
+                                                <li>Cevni mostiček</li>
+                                                <li>Transportna košara (za cevi B in C)</li>
+                                                <li>Cevne obveze</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        SPOJKE
+                                    </button>
+                                </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Sesalne spojke</li>
+                                                <li>Tlačne spojke</li>
+                                                <li>Prehodne spojke</li>
+                                                <li>Slepe spojke</li>
+                                                <li>Stabilne/fiksne spojke</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        RAZNA OPREMA ZA PRETOK GASILNIH SREDSTEV
+                                    </button>
+                                </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Sesalna košara</li>
+                                                <li>Trojak</li>
+                                                <li>Omejevalec tlaka</li>
+                                                <li>Hidrantni nastavek</li>
+                                                <li>Zbiralec vode</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        ROČNIKI
+                                    </button>
+                                </h2>
+                                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Kombinirani ročnik (turbo)</li>
+                                                <li>Navadni ročnik</li>
+                                                <li>Ročnik na zasun</li>
+                                                <li>Visokotlačni ročnik</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingEight">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                            KLJUČI
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Hidrantni ključi (podzemni, nadzemni)</li>
+                                                <li>Spojni ključi</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div>
+                                <h4 class="text-center naslovNadListo red">GAŠENJE S PENO IN ARMATURE ZA IZDELAVO ZRAČNE PENE</h4>
+                            </div>
+                            <div class="accordion" id="accordionExample2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingNin">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNin" aria-expanded="false" aria-controls="collapseNin">
+                                            VRSTE GASILNE PENE
+                                        </button>
+                                    </h2>
+                                    <div id="collapseNin" class="accordion-collapse collapse" aria-labelledby="headingNin" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <div>
+                                                Zračna pena je sestavljena iz vode, penilnega sredstva in zraka. Za izdelovanje pene uporabljamo razmerje od 1% do 6% penilnega sredstva.
+                                            </div>
+                                            <div>
+                                                Poznamo tri vrste pene:
+                                            </div>
+                                            <ul>
+                                                <li>Lahka pena</li>
+                                                <li>Srednja pena</li>
+                                                <li>Težka pena</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTen">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                            OPREMA ZA GAŠENJE S PENO
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Ročniki za peno</li>
+                                                <li>Mešalec penila</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-center naslovNadListo red">GASILNI APARATI</h4>
+                            </div>
+                            <div class="accordion" id="accordionExample3">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading11">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                            GASILNIK NA PRAH
+                                        </button>
+                                    </h2>
+                                    <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body">
+                                            <ul class="UnorderedList">
+                                                <li>GASILNO SREDSTVO</li>
+                                                <ul class="UnorderedList">
+                                                    <li><span class="red">Gasilni prah</span></li>
+                                                </ul>
+                                                <li>VELIKOSTI</li>
+                                                    <ul>
+                                                        <li>1kg</li>
+                                                        <li>2kg</li>
+                                                        <li>3kg</li>
+                                                        <li>6kg</li>
+                                                        <li>9kg</li>
+                                                    </ul>
+                                                <li>PREDNOSTI</li>
+                                                    <ul>
+                                                        <li>širok spekter uporabe glede na tip požara katerim je namenjen (tip A, tip B, tip C)</li>
+                                                        <li>primeren za uporabo na prostem</li>
+                                                    </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading12">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                            GASILNIK NA OGLJIKOV DIOKSID (CO<sup>2</sup>)
+                                        </button>
+                                    </h2>
+                                    <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body">
+                                            <ul class="UnorderedList">
+                                                <li>GASILNO SREDSTVO</li>
+                                                <ul class="UnorderedList">
+                                                    <li><span class="red">Ogljikov dioksid (CO<sup>2</sup>)</span></li>
+                                                </ul>
+                                                <li>VELIKOSTI</li>
+                                                    <ul>
+                                                    <li class="UnorderedList">Ročni:</li>
+                                                        <ul>
+                                                            <li>3kg</li>
+                                                            <li>5kg</li>
+                                                        </ul>
+                                                    <li class="UnorderedList"></li>Na vozičku:</li>
+                                                        <ul>
+                                                            <li>10kg</li>
+                                                            <li>20kg</li>
+                                                            <li>30kg</li>
+                                                        </ul>
+                                                    </ul>
+                                                <li>PREDNOSTI</li>
+                                                    <ul>
+                                                        <li>primeren za gašenje naprav pod napetostjo</li>
+                                                        <li>primeren za gašenje v zaprtih prostorih</li>
+                                                        <li>močan hladilni in dušilni učinek</li>
+                                                        <li>nima dodatnih stranskih učinkov</li>
+                                                        <li>primeren za gašenje tekočin (tip B)</li>
+                                                    </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading13">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                            GASILNIK NA PENO
+                                        </button>
+                                    </h2>
+                                    <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body">
+                                            <ul class="UnorderedList">
+                                                <li>GASILNO SREDSTVO</li>
+                                                <ul class="UnorderedList">
+                                                    <li><span class="red">Pena</span></li>
+                                                </ul>
+                                                <li>VELIKOSTI</li>
+                                                    <ul>
+                                                        <li>6kg</li>
+                                                        <li>9kg</li>
+                                                    </ul>
+                                                <li>PREDNOSTI</li>
+                                                    <ul>
+                                                        <li>preprečuje ponovni vžig</li>
+                                                        <li>čiščenje po gašenju je enostavnejše kot pri gašenju s prahom</li>
+                                                        <li>primeren za gašenje trdih snovi (tip A), gašenje tekočin (tip B)</li>
+                                                    </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading14">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                                            GASILNIK NA VODNO MEGLO
+                                        </button>
+                                    </h2>
+                                    <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body">
+                                            <ul class="UnorderedList">
+                                                <li>GASILNO SREDSTVO</li>
+                                                <ul class="UnorderedList">
+                                                    <li><span class="red">Čista voda</span></li>
+                                                </ul>
+                                                <li>VELIKOSTI</li>
+                                                    <ul>
+                                                        <li>6 litrov</li>
+                                                        <li>9 litrov</li>
+                                                    </ul>
+                                                <li>PREDNOSTI</li>
+                                                    <ul>
+                                                        <li>primeren za gašenje gorečih oseb, dragocenih predmetov ter elektronskih naprav pod napetostjo</li>
+                                                        <li>z uporabo vodne megle je posredna škoda pri gašenju v primerjavi z uporabo drugih gasilnikov veliko manjša, tako so predmeti v neposredni okolici gašenja še vedno uporabni</li>
+                                                    </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-center naslovNadListo red">ZAVAROVANJE OBMOČJA</h4>
+                            </div>
+                        <div class="accordion" id="accordionExample4">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading15" >
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-controls="collapse15" aria-expanded="false">
+                                        OPREMA ZA ZAVAROVANJE OBMOČJA
+                                    </button>
+                                </h2>
+                                <div id="collapse15" class="accordion-collapse collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordionExample4">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Trinožci</li>
+                                            <li>Prometni stožci</li>
+                                            <li>Trak</li>
+                                            <li>Svetlobna telesa - varnostne svetilke</li>
+                                            <li>LED loparji za usmerjanje</li>
+                                            <li>Svetilke z nastavki za usmerjanje</li>
+                                            <li>Opozorilne zastavice</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+
+                </div>
+            </div>
+        </div>
+        <footer class="bg-dark text-white text-center text-lg-start">
+        <!-- RDEČA ČRTA Z REFLEKTIVNIMI OZNAKAMI-->
+        <div id="redBar">
+            <div id="yLine1"></div>
+            <div id="yLine2"></div>
+            <div id="yLine3"></div>
+            <div id="yLine4"></div>
+            <div id="yLine5"></div>
+            <div id="yLine6"></div>
+        </div> 
+            <div class="container zgori">
+                <div class="row">
+                    <!-- FOOTER 1. STOLPEC -->
+                    <div class="col-md-6 text-center">
+                        <h1 class="text-uppercase">Klic na <span class="red">112</span></h1>
+                            <div class="hr-theme-slash-2">
+                                <div class="hr-line"></div>
+                                <div class="hr-icon"><h5 class="bi bi-telephone-fill"></h5></div>
+                                <div class="hr-line"></div>
+                                </div>
+                                <p class="text-left">Kaj moramo povedati ko kličemo na številko 112:</p>
+                                <ul id="klic">
+                                    <li><span class="red">KDO</span> kliče</li>
+                                    <li><span class="red">KAJ</span> se je zgodilo</li>
+                                    <li><span class="red">KJE</span> se je zgodilo</li>
+                                    <li><span class="red">KDAJ</span> se je zgodilo</li>
+                                    <li><span class="red">KOLIKO</span> je ponesrečencev</li>
+                                    <li>kakšne so <span class="red">POŠKODBE</span></li>
+                                    <li>kakšne so <span class="red">OKOLIŠČINE</span> na kraju nesreče</li>
+                                    <li>kakšno <span class="red">POMOČ</span> potrebujete</li>
+                                </ul>
+                        </p>
+                    </div>
+                    <!-- FOOTER 2. STOLPEC -->
+                    <div class="col-md-6 text-center">
+                        <h1 class="text-uppercase mb-0">povezave</h1>
+                        <div class="hr-theme-slash-2">
+                        <div class="hr-line"></div>
+                        <div class="hr-icon"><h3 class="bi bi-link-45deg"></h3></div>
+                        <div class="hr-line"></div>
+                        </div>
+                        <p class="text-left">Spletne strani, ki jih uporabljamo gasilci:</p>
+                        <ul>
+                            <li><a href="https://spin3.sos113.si/javno">Spin SOS</a></li>
+                            <li><a href="https://www.gasilec.net">Gasilska zveza Slovenije</a></li>
+                            <li><a href="https://www.gasilci.org">Gasilci.org</a></li>
+                            <li><a href="https://www.aed-baza.si">AED baza Slovenije</a></li>
+                            <li><a href="https://gasilci113.si/">Gasilci113</a></li>
+                            <li><a href="http://www.sos113.si/slo/index.php">Uprava za zaščito in reševanje</a></li>
+                            <li><a href="https://apl.gasilec.net/Vulkan/Login.aspx?ReturnUrl=%2fVulkan">Vulkan</a></li>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4 text-center spodi">© 2021 Copyright: Oskar Starman</div>
+                    <div class="col-md-4 text-center">Z gasilskim pozdravom: <span class="red">"Na pomoč!"</span></div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/script.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
